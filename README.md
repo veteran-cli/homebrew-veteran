@@ -1,11 +1,11 @@
 # Homebrew Tap for Veteran
 
-Homebrew tap for [veteran](https://github.com/yongjie0203/veteran) — a SOCKS5 proxy client with subscription support.
+Homebrew tap for [veteran](https://github.com/veteran-cli/veteran) — a SOCKS5 proxy client with subscription support.
 
 ## Install
 
 ```bash
-brew tap yongjie0203/tap https://github.com/yongjie0203/homebrew-tap
+brew tap veteran-cli/tap https://github.com/veteran-cli/homebrew-tap
 brew install veteran
 ```
 
@@ -20,7 +20,7 @@ brew upgrade veteran
 
 ```bash
 brew uninstall veteran
-brew untap yongjie0203/tap
+brew untap veteran-cli/tap
 ```
 
 ## Supported Platforms
