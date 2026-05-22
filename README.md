@@ -5,7 +5,12 @@ Homebrew tap for [veteran](https://github.com/veteran-cli/veteran) — a SOCKS5 
 ## Install
 
 ```bash
-brew tap veteran-cli/tap https://github.com/veteran-cli/homebrew-tap
+brew install veteran-cli/homebrew-veteran/veteran
+```
+
+Or add the tap first:
+```bash
+brew tap veteran-cli/homebrew-veteran
 brew install veteran
 ```
 
@@ -20,7 +25,7 @@ brew upgrade veteran
 
 ```bash
 brew uninstall veteran
-brew untap veteran-cli/tap
+brew untap veteran-cli/homebrew-veteran
 ```
 
 ## Supported Platforms
